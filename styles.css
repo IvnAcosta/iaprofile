@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+body{
+background: #000000;
+background: -webkit-linear-gradient(top, #000000, #034E50);
+background: -moz-linear-gradient(top, #000000, #034E50);
+background: linear-gradient(to bottom, #000000, #034E50);
+
+}
+.main{
+	color: white;
+}
+
+.main1{
+	color: white;
+	padding-top: 20px;
+
+	flex-direction: column;
+}
+
+.box{
+	width: 600px;
+	height: 500px;
+
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}	
+.user-name{
+	font-size: 3rem;
+
+}
+
+.img1{
+	
+	width: 180px; height: 160px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.skill{
+	padding-top: 10px;
+	color: cyan;
+}
+.skillsof{
+	padding-top: 10px;
+	color: white;
+
+}
+.row{
+	padding-top: 10px;
+
+}
+.card{
+
+	padding-top: 60px;
+}
