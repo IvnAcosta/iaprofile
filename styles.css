@@ -1,228 +1,51 @@
 /*Hoja de estilo del index.html */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 *{
-	margin: 0;
-	padding: 3;	 
-	font-family: 'Josefin Sans', sans-serif;
-
+		font-family: 'Josefin Sans', sans-serif;
 
 }
 
 
+.section{
+	font-size: 1.3em;
+}
 
+.card-title{
+	align-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.card{
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
 
 .brand{
 
-	color: cyan;
-	text-shadow: 0 0 7px #fff,
-	0 0 10px #fff,
-	0 0 21px #fff,
-	0 0 42px #0fa,
-	0 0 82px #0fa,
-	0 0 92px #0fa;
-	background-color: black;
-    font-size: 1.3em;
-	padding-top: 9px;
-	padding-bottom: 9px;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-}
-
-
-.cite{
-	padding-top: 18px;
-	padding-bottom: 18px;
-
 	color: white;
+	text-shadow: 0 0 9px pink,
 
-}
-.imgctitle{
-	padding-top: 28px;
-	border-radius: 18px;
-	height: 325px;
-	width: 900px;
-}
-
-
-.navbar{
-
+	0 0 42px teal,
+	0 0 82px cyan,
+	0 0 92px purple;
 	
-	background-color: black;
-	text-align: center;
+background-color: black; 
+
 	padding-top: 6px;
-	display: flex;
+	padding-bottom: 18px;
+	text-align: center;
 	align-items: center;
 	justify-content: center;
-
 }
 
 
-.profil{
-	color: deeppink;
-	padding-right: 60px;
-	padding-top: 20px
-}
-.skills{
-	color:lime;
-	align-items: center;
-	padding-right:3px; 
-	padding-left: 3px;
-	justify-content: center;
-
-}
-.gith{
-	color: aqua;
-	padding-left: 60px;
-}
-
-.navbar2{
-	color: black; 
-	
-	text-align: center;
-	padding-top: 6px;
-}
-
-.menuprof{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
-
-.wxprof{
-	padding: 9px;
-
-}
-.container{
-	padding-left: 18px;
-	padding-top: 18px;
-	padding-right: 13px;
-	color: white;
-	background: radial-gradient(farthest-side at right bottom,black,aqua,black);
-}
-.titledev{
-
-	color: deeppink;
-	padding-top: 28px;
-	padding-bottom: 18px;
-	text-align: center;
-}
-
-.titledevt{
-
-	color: white;
-	padding-top: 18px;
-	padding-bottom: 18px;
-	text-align: center;
-}
-.titledev2{
-	text-align: center;
-	color: black;
-	padding-top: 28px;
-	padding-bottom: 18px;
-	}
-.container1{
-	padding-top: 13px;
-	padding-right: 13px;
-	color: white;
-	background: radial-gradient(farthest-side at left top,black,aqua,black);
-}	
-.webdev,li{
-
-    text-align: center;
-	color: white;
-	padding-top: 27px;
-	padding-bottom: 28px;
-	font-size: 1.1em;
-
-}
-
-.webdev1,li{
-
-    text-align: center;
-	color: white;
-	padding-top: 27px;
-	padding-bottom: 28px;
-	font-size: 1.1em;
-
-}
-
-.cardimg{
-	text-align: center;
-	align-self: center;
-}
+.cont{
 
 
-.imgc{
-	align-items: center;
-	padding-top: 12px;
-	padding-bottom: 18px;
-	padding-left: 12px;
-	padding-right: 12px;
-
-
-	
-
-	height: 225px;
-	width: 300px;
-}
-
-
-.btn{
-	color: deeppink;
-	text-shadow: 0 0 7px #fff,
-	0 0 10px #fff,
-	0 0 21px #fff,
-	0 0 42px #0fa,
-	0 0 82px #0fa,
-	0 0 92px #0fa,
-	0 0 102px #0fa,
-	0 0 151px #f0a;
-
-
-}
-.btn-1{
-	background-color: black;
-
-	color: deeppink;
-	text-shadow: 0 0 7px #fff,
-	0 0 10px #fff,
-	0 0 21px #fff,
-	0 0 42px #0fa,
-	0 0 82px #0fa,
-	0 0 92px #0fa,
-	0 0 102px #0fa,
-	0 0 151px #f0a;
-
-
-}
-
-.btn-2{
-	background-color: black;
-	
-	color: lime;
-	text-shadow: 0 0 7px #fff,
-	0 0 10px #fff,
-	0 0 21px #fff,
-	0 0 42px #0fa,
-	0 0 82px #0fa,
-	0 0 92px #0fa,
-	0 0 102px #0fa,
-	0 0 151px #f0a;
-}
-
-.btn-3{
-	background-color: black;
-	
-	color: orange;
-	text-shadow: 0 0 7px #fff,
-	0 0 10px #fff,
-	0 0 21px #fff,
-	0 0 42px #0fa,
-	0 0 82px #0fa,
-	0 0 92px #0fa,
-	0 0 102px #0fa,
-	0 0 151px #f0a;
+  box-shadow: 0px   0px   300px   20px skyblue;
 }
