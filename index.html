@@ -1,75 +1,230 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>I.A</title>
-	<link rel="stylesheet" type="text/css"href="styles.css">
+<title>Rizome</title>
+<!-- cdn de materialize-css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Css stylesheet-->	
+  <link rel="stylesheet" type="text/css"href="styles.css"> 
+  <!--responsive-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+
+<!--Scripts -->
+<script type="text/javascript">
+fsumar = () => alert("Proximamente: Estamos trabajando para ti");
+comprar = () => alert("Dejanos tus contacto: un acesor se pondra en ocntacto contigo")
+infor = () => alert("Debido a la situacion en la que nos encotramos la cual ha afectado nuesta economia.Nos ponemos a tus ordenes con los precios mas bajos en el mercado web. ");
+
+</script>
+
 </head>
-<body>
 
-<header class="header">
-	
-	<div class="brand">
-		<p class="brand"><h1>IVAN ACOSTA</h1></p>
-		<cite class="cite">SOFTWARE DEVELOPER</cite>
-	    
+<body> 
+<!--Header -->
+<div class="brand center">
+  <p><h1>RIZOME</h1></p>
+  <cite class="cite">DESARROLLO DE SOFTWARE  </cite>
+</div>
 
-	    <div>
-
-		   <img class="imgctitle" src="https://res.cloudinary.com/dddlfk31u/image/upload/v1619765464/nuevas_funciones_javascript_google_io_2019-1024x405_kxi6ce.jpg"/>	
-	    </div>
-	</div>
-
-
-</header>
-
-
-
-
-
-
-	
-<div class="container">
-	
-		<h1 class="titledev"><p>Web Development / Desarrollo Web:</p></h1>
-		<h2 class="titledevt">Desarrollo de paginas y aplicaciones web en los lenguajes y frameworks de programacion de alta demanda en el mercado actual. </h2>
-		<ul class="webdev"><h3>	
-		
-		<li>HTML & CSS </li>		
-		 		
-		<li>JavaScript: Reactjs, React Native, Vuejs </li>		
-		<li>Python: Flask & Django</li>	
-		<li>Ruby: On rails</li>		
-		</h3></ul>
-
-		<div class="cardimg">
-		 	 <img class="imgc" src="https://res.cloudinary.com/dddlfk31u/image/upload/v1619765464/3BpUDBsC3ofBy4torT1ZiUF6hdonqpRH841MeMDM_fqbplj.png"/>
-		  <img class="imgc" src="https://res.cloudinary.com/dddlfk31u/image/upload/e_blackwhite/v1619720287/768px-Python-logo-notext.svg_dyjpdj.png"/>
-		  <img class="imgc" src="https://res.cloudinary.com/dddlfk31u/image/upload/v1619765467/200px-Ruby_logo.svg_ntjw2i.png"/>
-		    </div>
+<!--Navigation bar-->
+<nav>
+  <div class="nav-wrapper black">
+    <ul id="nav-mobile" class="left med-and-down black">
+          <li><a onclick="fsumar()"href="#">Desarrollo Web</a></li>
+          <li><a onclick="fsumar()" href="#">Tienda electronica</a></li>
+          <li><a onclick="fsumar()" href="#">BIG DATA</a></li>
+          <li><a onclick="fsumar()" href="#">Soporte IT</a></li>
+          <li><a onclick="fsumar()">NFT</a></li>
+    </ul>
+  </div> 
+</nav>
 
 
-	
-		<h1 class="titledev2">Data Science & Machine Learning </h1>
-		
-		<ul class="webdev1"><h3>	
-		
-		<li>Python: Numpy, Pandas, Matplotlib </li>
-		<li>R </li>				
-		
-		<li>Scala</li>
-		<li>Spark </li>		
-		
-		</h3></ul>
-		<div class="cardimg">
+<!-- Envoltura de todo el home-->
 
-		<img class="imgc" src="https://res.cloudinary.com/dddlfk31u/image/upload/v1619765465/images_10_ulahmr.jpg"/>
-		  <img class="imgc" src="https://res.cloudinary.com/dddlfk31u/image/upload/v1619765465/1024px-NumPy_logo.svg_ezon7i.png"/>
-		  <img class="imgc" src="https://res.cloudinary.com/dddlfk31u/image/upload/v1619765464/images_6_v5ebtd.png"/>
-		    </div>
 
+<div class="wrapper black">  <!--MAIN CARD -->
+
+<!--Presentation-->
+<div  class="container ">
+  <div class="row">
+    <div class="col s12 m12 white-text">
+      <div class="card  cont blue">
+        <div class="card-content">
+          <span class="card-title ">Tu propio sitio en internet</span>
+          <i class="large material-icons">web</i>
+          <p class="section">
+            Desarrollamos tu pagina web o tienda electronica.<br>
+            Hazte presente en internet,y adquiere ya tu propio sitio online,
+             causa mayor impacto en tus clientes e incrementa tus ventas.<br>
+            Estas a un paso de llevar tu marca a todas partes del mundo.<br></p>
+            <i class="medium material-icons">public</i><br>
+            <button class="btn-large  white black-text"><a onclick="infor()" href="#">Mas info</a></button>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Promos-->
+
+<div  class="container ">
+  <div class="row">
+    <div class="col s12 m12 white-text">
+      <div class="card  cont green">
+        <div class="card-content">
+          <span class="card-title ">Paquete 1</span>
+     
+          <p class="section">
+             Pagina web  100% responsiva: disponible y visible en todos los dispostivos, 
+             moviles,tablest y smart tv's<br></p>
+          
+          <p>
+            <i class=" medium material-icons">computer</i>
+              <i class="medium material-icons">phone_iphone</i>             
+              <i class="medium material-icons">tablet</i>
+              <i class="medium material-icons">phone_android</i>
+              <i class="medium material-icons">desktop_windows</i>
+              </p>
+                 <p class="section">
+             Certificado de seguridad SSL y tu propio dominio por 12 meses </p><br>
+          
+          <p> <i class=" medium material-icons">https</i>
+            <i class=" medium material-icons">http</i>
+          </p>
+              <p class="section">
+             Adminitrador de contenidos: Administra tu mismo tu pagina,<br> 
+             con  hasta 5gb para subir todos tus productos.</p><br>
+          
+          <p><i class="medium material-icons">account_circle</i>
+              <i class=" medium material-icons">collections</i>
+           <i class="medium material-icons">add_to_photos</i>  
+           
+            <i class=" medium material-icons">attachment</i>
+
+          </p><br>
+       
+
+            <div class="row">
+              <a onclick="comprar()" class="btn-floating btn-large red pulse"><i class="material-icons">attach_money</i></a>
+            </div>
+        </div>  
+      </div>
+    </div>
+  </div>
 </div>
 
 
-	
+
+<div  class="container ">
+  <div class="row">
+    <div class="col s12 m12 white-text">
+      <div class="card  cont pink">
+        <div class="card-content">
+          <span class="card-title ">Paquete 2</span>
+     
+ <p class="section">
+             Creamos tu tienda online, incrementa tus ventas aceptando
+              multiples formas de pago<br>
+              No dependas de las redes sociales obten tu propio market.</p>
+                  <p> <i class="medium material-icons">store</i>
+                    <i class="medium material-icons">payment</i>
+                    <i class="medium material-icons">monetization_on</i>
+                    <i class="medium material-icons">shopping_cart</i>
+                    <i class="medium material-icons">shopping_basket</i></p>
+     
+ <p class="section">
+             Control de inventarios: Desarrolamos para ti un software de control
+              de inventarios a tu medida incluido en tu pagina. 
+              <br>
+            Ademas de estadistica detallada  hecha por Inteligencia artificial.</p><br>
+            <p><i class="medium material-icons">trending_up</i>
+              <i class="medium material-icons">poll</i>
+              <i class="medium material-icons">pie_chart</i>
+                 <i class="medium material-icons">functions</i>
+                     <i class="medium material-icons">account_balance_wallet</i>
+</p>
+
+          <p class="section">
+             Pagina web  100% responsiva: disponible y visible en todos los dispostivos, 
+             moviles,tablest y smart tv's<br></p>
+          
+          <p>
+            <i class=" medium material-icons">computer</i>
+              <i class="medium material-icons">phone_iphone</i>             
+              <i class="medium material-icons">tablet</i>
+              <i class="medium material-icons">phone_android</i>
+              <i class="medium material-icons">desktop_windows</i>
+              </p>
+                 <p class="section">
+             Certificado de seguridad SSL y tu propio dominio por 12 meses </p><br>
+          
+          <p> <i class=" medium material-icons">https</i>
+            <i class=" medium material-icons">http</i>
+          </p>
+              <p class="section">
+             Adminitrador de contenidos: Administra tu mismo tu pagina,<br> 
+             con  hasta 5gb para subir todos tus productos.</p><br>
+          
+          <p><i class="medium material-icons">account_circle</i>
+              <i class=" medium material-icons">collections</i>
+           <i class="medium material-icons">add_to_photos</i>  
+           
+            <i class=" medium material-icons">attachment</i>
+
+          </p><br>
+       
+
+            <div class="row">
+              <a onclick="comprar()" class="btn-floating btn-large red pulse"><i class="material-icons">attach_money</i></a>
+            </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+
+              
+
+
+
+
+
+
+<div>
+<!-- FOOTER-->
+<footer class="page-footer black">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h6 class="white-text">RIZOME</h6>
+        <p class="grey-text text-lighten-4">Acerca de nosotros</p>
+        <p class="grey-text text-lighten-4">Acerca de nuestros servicios</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h6 class="white-text">
+        <p>Escribenos acerca de tu proyecto y con gusto te acesoraremos</p></h6>
+        <ul>
+          <li><button> <a onclick="fsumar()" class="black-text " href="#">Escribenos!</a></button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+            © 2021 Copyright Text
+            
+     </div>
+    </div>
+  </footer>
+</div>
+  
+ </div><!--end of MainWrapper-->
+ 
+   <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
